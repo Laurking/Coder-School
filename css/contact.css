@@ -1,0 +1,108 @@
+/* line 4, ../sass/contact.scss */
+main section {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 8, ../sass/contact.scss */
+main section table {
+  width: 90%;
+  margin: .5em auto;
+  padding: 5px;
+  position: relative;
+  padding-bottom: 2em;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.75);
+}
+/* line 19, ../sass/contact.scss */
+main section table td {
+  text-align: center;
+  width: 100%;
+  padding: .1em .5em;
+}
+/* line 24, ../sass/contact.scss */
+main section table td h3 {
+  width: 50%;
+  margin: auto auto;
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+/* line 30, ../sass/contact.scss */
+main section table td input {
+  font-size: 1.4em;
+  border-radius: 7px;
+}
+/* line 34, ../sass/contact.scss */
+main section table td textarea {
+  width: 90%;
+  margin: 0em .5em;
+  padding: 2px;
+  text-align: justify;
+  font-size: 1.3em;
+  height: 130px;
+}
+/* line 42, ../sass/contact.scss */
+main section table td button {
+  float: right;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 1.2em;
+  background-color: red;
+  border: 0px;
+  border-bottom: 3px solid #660000;
+  font-family: Impact;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+/* line 57, ../sass/contact.scss */
+main section table td button:active {
+  background-color: green;
+  border: none;
+}
+/* line 65, ../sass/contact.scss */
+main section table tr:last-of-type td {
+  padding-bottom: 3.2em;
+}
+/* line 71, ../sass/contact.scss */
+main section tr:first-of-type td {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bolder;
+  padding: 1em;
+}
+/* line 79, ../sass/contact.scss */
+main section tr:nth-child(2) td {
+  text-align: center;
+  color: red;
+}
+/* line 85, ../sass/contact.scss */
+main section tr:nth-child(7) td {
+  padding-right: 1.5em;
+}
+/* line 89, ../sass/contact.scss */
+main section section:last-of-type {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+}
+/* line 93, ../sass/contact.scss */
+main section section:last-of-type h2 {
+  display: inline-block;
+  margin: .5em .2em;
+}
+/* line 96, ../sass/contact.scss */
+main section section:last-of-type h2 a {
+  padding: .3em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 106, ../sass/contact.scss */
+  textarea {
+    width: 20px;
+  }
+}

@@ -1,0 +1,624 @@
+@import "compass/reset";
+
+*{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	font-size:14px;
+	background-color:#F0F0F0;
+}
+
+container{
+	width:100%;
+	header,main,footer{
+		width: 100%;
+
+	}
+	button{
+		-moz-transition:200ms;
+		-webkit-transition:200ms;
+		ransition:200ms;
+		outline: none;
+		cursor: pointer;
+	}
+}
+
+
+header{
+	.desktop{
+		display: none;
+	}
+	width:100%;
+	overflow: hidden;
+	.social-networks{
+		width: 100%;
+		overflow: hidden;
+		background-color:#000;
+		ul{
+			width: 100%;
+			padding:1px;
+			text-align: right;
+			padding-right: 1em;
+			li{
+				width:20px;
+				margin: .5em;
+				height:20px;
+				display: inline-block;
+				text-align: center;
+				&:hover{
+					a{
+						img{
+							background-color:white;
+							-moz-border-radius:0%;
+							-webkit-border-radius:0%;
+							-o-border-radius:0%;
+							border-radius:0%;
+						}
+					}
+				}
+				a{
+					width:20px;
+					height:20px;
+					display: block;
+					img{
+						width: 100%;
+						height: 100%;
+						-moz-border-radius:100%;
+						-webkit-border-radius:100%;
+						-o-border-radius:100%;
+						border-radius:100%;
+						background-color:#ccc;
+					}
+				}
+			}
+		}
+	}
+	.top-nav{
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+		a,h1,img,section{
+			display: inline;
+		}
+		img{
+			width:35px;
+			height: 30px;
+			margin: 5px 0px;
+			cursor:pointer;
+		}
+		.homeButton{
+			margin-top:10px;
+			width:20px;
+			height: 20px;
+		}
+		section{
+			float: right;
+			img{
+				margin-right: 3px;
+			}
+		}
+		a{
+			float: left;
+			width: 40px;
+			height: 40px;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+		h1,.logo{
+			clear: both;
+			font-size:1.1em;
+			margin-top:.9em;
+			color: black;
+
+		}
+		.logo{
+			margin:1.2px;
+			width:20px;
+			height:20px;
+		}
+	}
+	.search_box{
+		width: 100%;
+		position: absolute;
+		display:none;
+		padding-top:.5em;
+		
+		form{
+			width: 300px;
+			padding:1px 0px;
+			float: right;
+			margin-right:8px;
+			overflow: hidden;
+			background-color:white;
+			border-radius:10px;
+			input,button{
+				margin: 0px;
+				border:none;
+				padding:1px;
+			}
+			input{
+				width: 233px;
+				margin-top: 3px;
+				font-size: 1.2em;
+				padding-left:5px;
+				outline: none;
+
+			}
+			button{
+				width:59px;
+				height:28px;
+				float: right;
+				img{
+					width:100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+	nav{
+		width: 100%;
+		overflow: hidden;
+		ul,li{
+			width: 100%;
+		}
+		li{
+			padding-left:1em;
+			line-height: 20px;
+			a{
+				display: block;
+				text-decoration: none;
+			}
+		}
+	}
+	.main-nav{
+		padding-bottom: 1em;
+		border-bottom-radius:100%;
+		ul{
+			li{
+				width:16.66%;
+				float: left;
+				padding:0px;
+				font-weight: bolder;
+				line-height:50px;
+				font-size: .9em;
+				text-align: center;
+				border-bottom:5px solid #444;
+				border-top:2px solid #000;
+				background-color:#000;
+				&:hover{
+					background-color:#f0f0f0;
+					border-bottom-color:#f0f0f0;
+					a{
+						color: black;
+					}
+				}
+
+				a{
+					color:white;
+					text-decoration: none;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.page-nav{
+		width: 100%;
+		position:absolute;
+		margin-bottom: 40px;
+		background-color:white;
+		display: none;
+		ul{
+			li{
+				line-height:50px;
+				border-bottom:1px solid #ccc;
+				a{
+					color:#444;
+				}
+			}
+		}
+	}
+	.register-signin{
+		width: 100%;
+		overflow: hidden;
+		background-color:#999;
+		border-bottom:5px solid #444;
+		section{
+			display: none;
+		}
+		ul{
+			width: 50%;
+			display: inline-block;
+			overflow: hidden;
+			text-align: right;
+			padding-right:.5em;
+			
+
+			&:nth-child(1){
+				li{
+					width: 150px;
+				}
+			}
+			&:nth-child(2){
+				float: right;
+			}
+			
+			li{
+				width:60px;
+				margin-right:7px;
+				display: inline-block;
+				text-align: center;
+				line-height: 40px;
+				font-size: 1.1em;
+				font-weight: bolder;
+				&:hover{
+					background-color:#444;
+				}
+
+				a{
+					display:block;
+					color:#000;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+main{
+	width:100%;
+	overflow: hidden;
+	background-color:#222;
+	padding:.5em;
+
+	aside{
+		display: none;
+	}
+	section{
+		width:100%;
+		background-color:#FFF;
+	}
+	.video-and-list{
+		width: 100%;
+		overflow:hidden;
+		text-align: center;
+		.bottom{
+			width: 100%;
+			height: 400px;
+			box-shadow:4px 4px 4px #444;
+			video{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.list{
+			display: none;
+			overflow-y: scroll;
+			box-shadow:4px 0px 4px 0px #444;
+			section{
+				width: 100%;;
+				height: 120px;
+				cursor: pointer;
+				video{
+					width: 150px;
+					float: left;
+				}
+			}
+		}
+	}
+	.more-videos{
+		clear: both;
+		width: 100%;
+		padding:.5em;
+		section{
+			width: 100%;
+			padding-right:.2em;
+			overflow:hidden;
+		}
+	}
+	.more-videos{
+		clear: both;
+		width: 100%;
+		padding:1em;
+		overflow:hidden;
+		background-color:#222;
+		#container{
+			background-color:white;
+			overflow:hidden;
+			section{
+				overflow:hidden;
+				float: left;
+				padding:2px;
+				cursor: pointer;
+				video{
+					width:150px;
+					height: 100px;
+					float: left;
+				}
+			}
+		}
+	}
+}
+
+
+
+footer{
+	clear:both;
+	.footer-head{
+		width: 100%;
+		padding:0 1px;
+
+		section{
+			width: 100%;
+			padding:0 10px;
+			background-color:#000;
+			h2{
+				font-size: 1.3em;
+				color:white;
+				padding:5px;
+				background-color:#000;
+				text-align: center;
+			}
+			h3{
+				line-height: 30px;
+				padding-left:8px;
+				background-color:#222;
+				border-bottom:1px solid #000;
+				
+				&:hover{
+					background-color:white;
+					a{
+						color:black;
+					}
+				}
+				a{
+					display: block;
+					text-decoration: none;
+					color:#fff;
+					
+				}
+			}
+		}
+	}
+	.footer-foot{
+		width: 100%;
+		padding:20px 10px;
+		overflow: hidden;
+		font-size: 1em;
+		background-color:#111;
+		color: white;
+
+		.desktop{
+			display: none;
+		}
+	}
+
+}
+
+
+
+
+@media only screen and (min-width:400px){
+	
+	main{
+		.more-videos{
+			clear: both;
+			width: 100%;
+			padding:1em;
+			overflow:hidden;
+			background-color:#222;
+			.container{
+				background-color:white;
+				overflow:hidden;
+				section{
+					width:50%;
+					overflow:hidden;
+					float: left;
+					padding:2px;
+					video{
+						width:150px;
+						height: 100px;
+						float: left;
+					}
+					p{
+						padding-top:5px;
+					}
+				}
+			}
+		}
+	}
+	footer{
+		
+		.footer-head{
+			section{
+				width:50%;
+				float: left;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width:768px){
+	.mobile,#search_box{
+		display: none;
+	}
+	.desktop{
+		display: block;
+	}
+	header{
+		#nav_one{
+			display: none;
+		}
+		#nav_two{
+			display: block;
+		}
+
+		.top-nav{
+			.mobile{
+				visibility: hidden;
+			}
+		}
+		.register-signin{
+			display:table;
+			text-align: right;
+			overflow: hidden;
+			section,ul{
+				display:table-cell;
+				vertical-align:middle;
+			}
+			section{
+				overflow: hidden;
+				padding:1px;
+				form{
+					width: 400px;
+					float: right;
+					padding:3px 0px;
+					text-align: center;
+					background-color: white;
+					input,button{
+						font-size: 1.3em;
+						border:none;
+						outline:none;
+					}
+					input{
+						width:350px;
+					}
+					button{
+						background-color:#000;
+						img{
+							width:40px;
+							height:23px;
+						}
+					}
+				}
+			}
+
+			ul{
+				width:170px;
+				overflow:hidden;
+			}
+		}
+	}
+	main{
+		padding:0em;
+		aside,.video-and-list{
+			display: inline-block;
+			float: left;
+		}
+		aside{
+			width: 12%;
+			overflow: hidden;
+			padding-top:.8em;
+			padding-left:.5em;
+			ul{
+				width: 100%;
+				-moz-border-top-left-radius:10px;
+				-webkit-border-top-left-radius:10px;
+				-o-border-top-left-radius:10px;
+				border-top-left-radius:10px;
+				border-top:10px solid green;
+				li{
+					text-align: left;
+					padding-left:1em;
+					line-height: 30px;
+					border-bottom:1px solid #F0F0F0;
+					border-top:1px solid #888;
+					background-color:#FFF;
+					&:hover{
+						background-color:#222;
+						border-color:#222;
+						a{
+							color:white;
+						}
+					}
+					&:last-of-type:hover{
+						border-bottom-color:white;
+					}
+					a{
+						text-decoration: none;
+						display: block;
+					}
+				}
+			}
+		}
+
+		.video-and-list{
+			width:88%;
+			background-color:#222;
+			.top{
+				width: 100%;
+				margin-top: .2em;
+				background-color:green;
+				-moz-border-top-left-radius:10px;
+				-webkit-border-top-left-radius:10px;
+				-o-border-top-left-radius:10px;
+				border-top-left-radius:10px;
+				border-top:19px solid green;
+			}
+			.bottom{
+				padding: .5em;
+				height: 400px;
+				box-shadow:4px 0px 4px 0px #444;
+				.video-player{
+					width: 63%;
+					float: left;
+					overflow:hidden;
+					height: 100%;
+					padding-right:.5em;
+					box-shadow:4px 0px 4px 0px #444;
+				}
+				.list{
+					display: block;
+					width: 35%;
+					float: right;
+					height:100%;
+					overflow-y: scroll;
+					box-shadow:4px 0px 4px 0px #444;
+				}
+			}
+		}
+		.more-videos{
+			.container{
+				section{
+					width: 33.33%;
+					padding:.5em;
+					overflow:hidden;
+					video{
+						margin-right: .5em;
+					}
+				}
+			}
+
+		}
+
+
+	}
+	footer{
+		.footer-head{
+			section{
+				width: 33.33%;
+				float: left;
+			}
+		}
+		.footer-foot{
+			text-align: center;
+			.desktop{
+				display:inline-block;
+				padding:.5em .7em;
+			}
+		}
+	}
+}

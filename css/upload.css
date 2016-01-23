@@ -1,0 +1,37 @@
+/* line 1, ../sass/upload.scss */
+.container-upload {
+  width: 100%;
+  background-color: #222;
+  overflow: hidden;
+}
+/* line 5, ../sass/upload.scss */
+.container-upload .frames {
+  padding: 1em;
+  overflow: hidden;
+}
+/* line 9, ../sass/upload.scss */
+.container-upload .frames .frameone {
+  display: none;
+  overflow: hidden;
+}
+/* line 13, ../sass/upload.scss */
+.container-upload .frames .frametwo {
+  background-color: red;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 23, ../sass/upload.scss */
+  .frameone {
+    display: block;
+    width: 55%;
+    float: left;
+  }
+
+  /* line 28, ../sass/upload.scss */
+  .frametwo {
+    display: block;
+    width: 30%;
+    border: 2px solid red;
+  }
+}

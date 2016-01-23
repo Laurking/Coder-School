@@ -1,0 +1,751 @@
+/* line 5, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/programs.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 11, ../sass/programs.scss */
+body {
+  font-size: 14px;
+  background-color: #F0F0F0;
+}
+
+/* line 16, ../sass/programs.scss */
+container {
+  width: 100%;
+}
+/* line 18, ../sass/programs.scss */
+container header, container main, container footer {
+  width: 100%;
+}
+/* line 22, ../sass/programs.scss */
+container button {
+  -moz-transition: 200ms;
+  -webkit-transition: 200ms;
+  ransition: 200ms;
+  outline: none;
+  cursor: pointer;
+}
+
+/* line 32, ../sass/programs.scss */
+header {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 33, ../sass/programs.scss */
+header .desktop {
+  display: none;
+}
+/* line 38, ../sass/programs.scss */
+header .social-networks {
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+/* line 42, ../sass/programs.scss */
+header .social-networks ul {
+  width: 100%;
+  padding: 1px;
+  text-align: right;
+  padding-right: 1em;
+}
+/* line 47, ../sass/programs.scss */
+header .social-networks ul li {
+  width: 20px;
+  margin: .5em;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+}
+/* line 55, ../sass/programs.scss */
+header .social-networks ul li:hover a img {
+  background-color: white;
+  -moz-border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -o-border-radius: 0%;
+  border-radius: 0%;
+}
+/* line 64, ../sass/programs.scss */
+header .social-networks ul li a {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+/* line 68, ../sass/programs.scss */
+header .social-networks ul li a img {
+  width: 100%;
+  height: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #ccc;
+}
+/* line 81, ../sass/programs.scss */
+header .top-nav {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 92, ../sass/programs.scss */
+header .top-nav a, header .top-nav h1, header .top-nav img, header .top-nav section {
+  display: inline;
+}
+/* line 95, ../sass/programs.scss */
+header .top-nav img {
+  width: 35px;
+  height: 30px;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+/* line 101, ../sass/programs.scss */
+header .top-nav .homeButton {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+/* line 106, ../sass/programs.scss */
+header .top-nav section {
+  float: right;
+}
+/* line 108, ../sass/programs.scss */
+header .top-nav section img {
+  margin-right: 3px;
+}
+/* line 112, ../sass/programs.scss */
+header .top-nav a {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+/* line 116, ../sass/programs.scss */
+header .top-nav a img {
+  height: 100%;
+  width: 100%;
+}
+/* line 121, ../sass/programs.scss */
+header .top-nav h1, header .top-nav .logo {
+  clear: both;
+  font-size: 1.1em;
+  margin-top: .9em;
+  color: black;
+}
+/* line 128, ../sass/programs.scss */
+header .top-nav .logo {
+  margin: 1.2px;
+  width: 20px;
+  height: 20px;
+}
+/* line 134, ../sass/programs.scss */
+header .search_box {
+  width: 100%;
+  position: absolute;
+  display: none;
+  padding-top: .5em;
+}
+/* line 140, ../sass/programs.scss */
+header .search_box form {
+  width: 300px;
+  padding: 1px 0px;
+  float: right;
+  margin-right: 8px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+}
+/* line 148, ../sass/programs.scss */
+header .search_box form input, header .search_box form button {
+  margin: 0px;
+  border: none;
+  padding: 1px;
+}
+/* line 153, ../sass/programs.scss */
+header .search_box form input {
+  width: 233px;
+  margin-top: 3px;
+  font-size: 1.2em;
+  padding-left: 5px;
+  outline: none;
+}
+/* line 161, ../sass/programs.scss */
+header .search_box form button {
+  width: 59px;
+  height: 28px;
+  float: right;
+}
+/* line 165, ../sass/programs.scss */
+header .search_box form button img {
+  width: 100%;
+  height: 100%;
+}
+/* line 172, ../sass/programs.scss */
+header nav {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 175, ../sass/programs.scss */
+header nav ul, header nav li {
+  width: 100%;
+}
+/* line 178, ../sass/programs.scss */
+header nav li {
+  padding-left: 1em;
+  line-height: 20px;
+}
+/* line 181, ../sass/programs.scss */
+header nav li a {
+  display: block;
+  text-decoration: none;
+}
+/* line 187, ../sass/programs.scss */
+header .main-nav {
+  padding-bottom: 1em;
+  border-bottom-radius: 100%;
+}
+/* line 191, ../sass/programs.scss */
+header .main-nav ul li {
+  width: 16.66%;
+  float: left;
+  padding: 0px;
+  font-weight: bolder;
+  line-height: 50px;
+  font-size: .9em;
+  text-align: center;
+  border-bottom: 5px solid #444;
+  border-top: 2px solid #000;
+  background-color: #000;
+}
+/* line 202, ../sass/programs.scss */
+header .main-nav ul li:hover {
+  background-color: #f0f0f0;
+  border-bottom-color: #f0f0f0;
+}
+/* line 205, ../sass/programs.scss */
+header .main-nav ul li:hover a {
+  color: black;
+}
+/* line 210, ../sass/programs.scss */
+header .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+/* line 218, ../sass/programs.scss */
+header .page-nav {
+  width: 100%;
+  position: absolute;
+  margin-bottom: 40px;
+  background-color: white;
+  display: none;
+}
+/* line 225, ../sass/programs.scss */
+header .page-nav ul li {
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 228, ../sass/programs.scss */
+header .page-nav ul li a {
+  color: #444;
+}
+/* line 234, ../sass/programs.scss */
+header .register-signin {
+  width: 100%;
+  overflow: hidden;
+  background-color: #999;
+  border-bottom: 5px solid #444;
+}
+/* line 239, ../sass/programs.scss */
+header .register-signin section {
+  display: none;
+}
+/* line 242, ../sass/programs.scss */
+header .register-signin ul {
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+  text-align: right;
+  padding-right: .5em;
+}
+/* line 251, ../sass/programs.scss */
+header .register-signin ul:nth-child(1) li {
+  width: 150px;
+}
+/* line 255, ../sass/programs.scss */
+header .register-signin ul:nth-child(2) {
+  float: right;
+}
+/* line 259, ../sass/programs.scss */
+header .register-signin ul li {
+  width: 60px;
+  margin-right: 7px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+/* line 267, ../sass/programs.scss */
+header .register-signin ul li:hover {
+  background-color: #444;
+}
+/* line 271, ../sass/programs.scss */
+header .register-signin ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 281, ../sass/programs.scss */
+main {
+  width: 100%;
+  overflow: hidden;
+  background-color: #222;
+  padding: .5em;
+}
+/* line 287, ../sass/programs.scss */
+main aside {
+  display: none;
+}
+/* line 290, ../sass/programs.scss */
+main section {
+  width: 100%;
+  background-color: #FFF;
+}
+/* line 294, ../sass/programs.scss */
+main .video-and-list {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 298, ../sass/programs.scss */
+main .video-and-list .bottom {
+  width: 100%;
+  height: 400px;
+  box-shadow: 4px 4px 4px #444;
+}
+/* line 302, ../sass/programs.scss */
+main .video-and-list .bottom video {
+  width: 100%;
+  height: 100%;
+}
+/* line 307, ../sass/programs.scss */
+main .video-and-list .list {
+  display: none;
+  overflow-y: scroll;
+  box-shadow: 4px 0px 4px 0px #444;
+}
+/* line 311, ../sass/programs.scss */
+main .video-and-list .list section {
+  width: 100%;
+  height: 120px;
+  cursor: pointer;
+}
+/* line 315, ../sass/programs.scss */
+main .video-and-list .list section video {
+  width: 150px;
+  float: left;
+}
+/* line 322, ../sass/programs.scss */
+main .more-videos {
+  clear: both;
+  width: 100%;
+  padding: .5em;
+}
+/* line 326, ../sass/programs.scss */
+main .more-videos section {
+  width: 100%;
+  padding-right: .2em;
+  overflow: hidden;
+}
+/* line 332, ../sass/programs.scss */
+main .more-videos {
+  clear: both;
+  width: 100%;
+  padding: 1em;
+  overflow: hidden;
+  background-color: #222;
+}
+/* line 338, ../sass/programs.scss */
+main .more-videos #container {
+  background-color: white;
+  overflow: hidden;
+}
+/* line 341, ../sass/programs.scss */
+main .more-videos #container section {
+  overflow: hidden;
+  float: left;
+  padding: 2px;
+  cursor: pointer;
+}
+/* line 346, ../sass/programs.scss */
+main .more-videos #container section video {
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+/* line 358, ../sass/programs.scss */
+footer {
+  clear: both;
+}
+/* line 360, ../sass/programs.scss */
+footer .footer-head {
+  width: 100%;
+  padding: 0 1px;
+}
+/* line 364, ../sass/programs.scss */
+footer .footer-head section {
+  width: 100%;
+  padding: 0 10px;
+  background-color: #000;
+}
+/* line 368, ../sass/programs.scss */
+footer .footer-head section h2 {
+  font-size: 1.3em;
+  color: white;
+  padding: 5px;
+  background-color: #000;
+  text-align: center;
+}
+/* line 375, ../sass/programs.scss */
+footer .footer-head section h3 {
+  line-height: 30px;
+  padding-left: 8px;
+  background-color: #222;
+  border-bottom: 1px solid #000;
+}
+/* line 381, ../sass/programs.scss */
+footer .footer-head section h3:hover {
+  background-color: white;
+}
+/* line 383, ../sass/programs.scss */
+footer .footer-head section h3:hover a {
+  color: black;
+}
+/* line 387, ../sass/programs.scss */
+footer .footer-head section h3 a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 396, ../sass/programs.scss */
+footer .footer-foot {
+  width: 100%;
+  padding: 20px 10px;
+  overflow: hidden;
+  font-size: 1em;
+  background-color: #111;
+  color: white;
+}
+/* line 404, ../sass/programs.scss */
+footer .footer-foot .desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 400px) {
+  /* line 417, ../sass/programs.scss */
+  main .more-videos {
+    clear: both;
+    width: 100%;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #222;
+  }
+  /* line 423, ../sass/programs.scss */
+  main .more-videos .container {
+    background-color: white;
+    overflow: hidden;
+  }
+  /* line 426, ../sass/programs.scss */
+  main .more-videos .container section {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    padding: 2px;
+  }
+  /* line 431, ../sass/programs.scss */
+  main .more-videos .container section video {
+    width: 150px;
+    height: 100px;
+    float: left;
+  }
+  /* line 436, ../sass/programs.scss */
+  main .more-videos .container section p {
+    padding-top: 5px;
+  }
+
+  /* line 446, ../sass/programs.scss */
+  footer .footer-head section {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 455, ../sass/programs.scss */
+  .mobile, #search_box {
+    display: none;
+  }
+
+  /* line 458, ../sass/programs.scss */
+  .desktop {
+    display: block;
+  }
+
+  /* line 462, ../sass/programs.scss */
+  header #nav_one {
+    display: none;
+  }
+  /* line 465, ../sass/programs.scss */
+  header #nav_two {
+    display: block;
+  }
+  /* line 470, ../sass/programs.scss */
+  header .top-nav .mobile {
+    visibility: hidden;
+  }
+  /* line 474, ../sass/programs.scss */
+  header .register-signin {
+    display: table;
+    text-align: right;
+    overflow: hidden;
+  }
+  /* line 478, ../sass/programs.scss */
+  header .register-signin section, header .register-signin ul {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 482, ../sass/programs.scss */
+  header .register-signin section {
+    overflow: hidden;
+    padding: 1px;
+  }
+  /* line 485, ../sass/programs.scss */
+  header .register-signin section form {
+    width: 400px;
+    float: right;
+    padding: 3px 0px;
+    text-align: center;
+    background-color: white;
+  }
+  /* line 491, ../sass/programs.scss */
+  header .register-signin section form input, header .register-signin section form button {
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+  }
+  /* line 496, ../sass/programs.scss */
+  header .register-signin section form input {
+    width: 350px;
+  }
+  /* line 499, ../sass/programs.scss */
+  header .register-signin section form button {
+    background-color: #000;
+  }
+  /* line 501, ../sass/programs.scss */
+  header .register-signin section form button img {
+    width: 40px;
+    height: 23px;
+  }
+  /* line 509, ../sass/programs.scss */
+  header .register-signin ul {
+    width: 170px;
+    overflow: hidden;
+  }
+
+  /* line 515, ../sass/programs.scss */
+  main {
+    padding: 0em;
+  }
+  /* line 517, ../sass/programs.scss */
+  main aside, main .video-and-list {
+    display: inline-block;
+    float: left;
+  }
+  /* line 521, ../sass/programs.scss */
+  main aside {
+    width: 12%;
+    overflow: hidden;
+    padding-top: .8em;
+    padding-left: .5em;
+  }
+  /* line 526, ../sass/programs.scss */
+  main aside ul {
+    width: 100%;
+    -moz-border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -o-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 10px solid green;
+  }
+  /* line 533, ../sass/programs.scss */
+  main aside ul li {
+    text-align: left;
+    padding-left: 1em;
+    line-height: 30px;
+    border-bottom: 1px solid #F0F0F0;
+    border-top: 1px solid #888;
+    background-color: #FFF;
+  }
+  /* line 540, ../sass/programs.scss */
+  main aside ul li:hover {
+    background-color: #222;
+    border-color: #222;
+  }
+  /* line 543, ../sass/programs.scss */
+  main aside ul li:hover a {
+    color: white;
+  }
+  /* line 547, ../sass/programs.scss */
+  main aside ul li:last-of-type:hover {
+    border-bottom-color: white;
+  }
+  /* line 550, ../sass/programs.scss */
+  main aside ul li a {
+    text-decoration: none;
+    display: block;
+  }
+  /* line 558, ../sass/programs.scss */
+  main .video-and-list {
+    width: 88%;
+    background-color: #222;
+  }
+  /* line 561, ../sass/programs.scss */
+  main .video-and-list .top {
+    width: 100%;
+    margin-top: .2em;
+    background-color: green;
+    -moz-border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -o-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 19px solid green;
+  }
+  /* line 571, ../sass/programs.scss */
+  main .video-and-list .bottom {
+    padding: .5em;
+    height: 400px;
+    box-shadow: 4px 0px 4px 0px #444;
+  }
+  /* line 575, ../sass/programs.scss */
+  main .video-and-list .bottom .video-player {
+    width: 63%;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+    padding-right: .5em;
+    box-shadow: 4px 0px 4px 0px #444;
+  }
+  /* line 583, ../sass/programs.scss */
+  main .video-and-list .bottom .list {
+    display: block;
+    width: 35%;
+    float: right;
+    height: 100%;
+    overflow-y: scroll;
+    box-shadow: 4px 0px 4px 0px #444;
+  }
+  /* line 595, ../sass/programs.scss */
+  main .more-videos .container section {
+    width: 33.33%;
+    padding: .5em;
+    overflow: hidden;
+  }
+  /* line 599, ../sass/programs.scss */
+  main .more-videos .container section video {
+    margin-right: .5em;
+  }
+
+  /* line 611, ../sass/programs.scss */
+  footer .footer-head section {
+    width: 33.33%;
+    float: left;
+  }
+  /* line 616, ../sass/programs.scss */
+  footer .footer-foot {
+    text-align: center;
+  }
+  /* line 618, ../sass/programs.scss */
+  footer .footer-foot .desktop {
+    display: inline-block;
+    padding: .5em .7em;
+  }
+}

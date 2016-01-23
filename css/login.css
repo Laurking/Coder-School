@@ -1,0 +1,360 @@
+/* line 5, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/login.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 11, ../sass/login.scss */
+body {
+  font-size: 14px;
+  background-color: #F0F0F0;
+}
+
+/* line 16, ../sass/login.scss */
+container {
+  width: 100%;
+}
+/* line 18, ../sass/login.scss */
+container header, container main, container footer {
+  width: 100%;
+}
+
+/* line 24, ../sass/login.scss */
+header .top-nav, header nav, header .register-or-signin, header .search_box {
+  width: 100%;
+}
+/* line 27, ../sass/login.scss */
+header .top-nav {
+  overflow: auto;
+  background-color: #000;
+  text-align: center;
+}
+/* line 31, ../sass/login.scss */
+header .top-nav h1, header .top-nav img {
+  display: inline-block;
+}
+/* line 34, ../sass/login.scss */
+header .top-nav h1 {
+  clear: both;
+  color: white;
+  font: 1.2em helvetica,Impact, sans-serif;
+  margin-top: .9em;
+  text-shadow: -2px 2px 2px #F0F0F0;
+}
+/* line 41, ../sass/login.scss */
+header .top-nav img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* line 46, ../sass/login.scss */
+header .top-nav .logo {
+  width: 25px;
+  height: 20px;
+  cursor: auto;
+}
+/* line 51, ../sass/login.scss */
+header .top-nav .homeButton {
+  float: left;
+  height: 40px;
+  margin-top: 5px;
+}
+/* line 56, ../sass/login.scss */
+header .top-nav .menu_ic {
+  float: right;
+}
+/* line 60, ../sass/login.scss */
+header *.search_box {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 64, ../sass/login.scss */
+header .search_box {
+  padding: 3px;
+  display: table;
+  background-color: #000;
+}
+/* line 68, ../sass/login.scss */
+header .search_box .search, header .search_box .search_ic {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+/* line 74, ../sass/login.scss */
+header .search_box .search {
+  padding: 2px 5px;
+  -moz-border-top-left-radius: 7px;
+  -webkit-border-top-left-radius: 7px;
+  border-top-left-radius: 7px;
+  -moz-border-bottom-left-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  width: auto;
+}
+/* line 83, ../sass/login.scss */
+header .search_box .search form {
+  width: 100%;
+  padding: 0px;
+}
+/* line 86, ../sass/login.scss */
+header .search_box .search form input {
+  width: 100%;
+  font-size: 1.6em;
+  font-family: Times New Roman;
+  padding: 2px;
+  border: none;
+}
+/* line 96, ../sass/login.scss */
+header .search_box .search_ic {
+  width: 45px;
+  height: 40px;
+  padding: 3px;
+  cursor: pointer;
+  -moz-border-top-right-radius: 7px;
+  -webkit-border-top-right-radius: 7px;
+  border-top-right-radius: 7px;
+  -moz-border-bottom-right-radius: 7px;
+  -webkit-border-bottom-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+/* line 107, ../sass/login.scss */
+header .search_box .search_ic img {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+/* line 117, ../sass/login.scss */
+header nav {
+  padding: .2em .1em;
+  padding-bottom: 0px;
+  display: none;
+}
+/* line 121, ../sass/login.scss */
+header nav ul {
+  width: 100%;
+}
+/* line 123, ../sass/login.scss */
+header nav ul li {
+  width: 16.666%;
+  line-height: 30px;
+  font-weight: bolder;
+  float: left;
+  text-shadow: -1px 1px 1px #444;
+  text-align: center;
+  padding-left: .5em;
+  background: -moz-linear-gradient(top, #333, #f0f0f0, gray);
+  background: -webkit-linear-gradient(to bottom, gray, #f0f0f0, gray);
+  background: linear-gradient(70deg, gray, #f0f0f0, gray);
+}
+/* line 135, ../sass/login.scss */
+header nav ul li:hover {
+  background: -moz-linear-gradient(top, white, #ccc, white);
+  background: -webkit-linear-gradient(to bottom, #ccc, gray, white);
+  background: linear-gradient(360deg, white, #ccc, white);
+  box-shadow: 20px 0px 100px #444;
+}
+/* line 140, ../sass/login.scss */
+header nav ul li:hover a {
+  color: #000;
+}
+/* line 144, ../sass/login.scss */
+header nav ul li a {
+  text-decoration: none;
+  color: #444;
+  display: block;
+  padding-top: .7em;
+  padding-right: .6em;
+}
+/* line 150, ../sass/login.scss */
+header nav ul li a img {
+  width: 20px;
+  height: 20px;
+}
+/* line 159, ../sass/login.scss */
+header .register-or-signin {
+  padding: 0em .1em;
+  padding-left: 50%;
+  overflow: hidden;
+}
+/* line 163, ../sass/login.scss */
+header .register-or-signin ul {
+  width: 100%;
+}
+/* line 165, ../sass/login.scss */
+header .register-or-signin ul li {
+  width: 100%;
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 40px;
+  border: 5px solid #ccc;
+  transition: 500ms;
+  background: -moz-linear-gradient(bottom, black, white);
+  background: -webkit-linear-gradient(bottom, black, white);
+  background: linear-gradient(bottom, black, white);
+}
+/* line 175, ../sass/login.scss */
+header .register-or-signin ul li:hover {
+  background: -moz-linear-gradient(top, white, #444);
+  background: -webkit-linear-gradient(top, white, #444);
+  background: linear-gradient(top, white, #444);
+}
+/* line 180, ../sass/login.scss */
+header .register-or-signin ul li:active {
+  background: -moz-linear-gradient(top, black, white);
+  background: -webkit-linear-gradient(top, black, white);
+  background: linear-gradient(top, black, white);
+}
+/* line 185, ../sass/login.scss */
+header .register-or-signin ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 200, ../sass/login.scss */
+main section {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 204, ../sass/login.scss */
+main section table {
+  margin: 1.5em auto;
+  padding: 5px;
+  position: relative;
+  padding-bottom: 2em;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.75);
+}
+/* line 215, ../sass/login.scss */
+main section table tr:first-of-type td {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bolder;
+  padding-bottom: .2em;
+}
+/* line 223, ../sass/login.scss */
+main section table tr:nth-child(2) td {
+  text-align: center;
+  color: red;
+}
+/* line 228, ../sass/login.scss */
+main section table td {
+  padding: 1.5em 1em;
+}
+/* line 231, ../sass/login.scss */
+main section table td h3 {
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  text-shadow: 2px 2px 2px white;
+}
+/* line 236, ../sass/login.scss */
+main section table td input {
+  font-size: 1.4em;
+  border-radius: 7px;
+}
+/* line 240, ../sass/login.scss */
+main section table td button {
+  float: right;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 1.2em;
+  background-color: red;
+  border: 0px;
+  border-bottom: 3px solid #660000;
+  font-family: Impact;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+/* line 255, ../sass/login.scss */
+main section table td button:active {
+  background-color: green;
+  border: none;
+}
+/* line 262, ../sass/login.scss */
+main section section:last-of-type {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+}
+/* line 266, ../sass/login.scss */
+main section section:last-of-type h2 {
+  display: inline-block;
+}
+/* line 268, ../sass/login.scss */
+main section section:last-of-type h2 a {
+  padding: .3em;
+}

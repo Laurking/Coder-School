@@ -1,0 +1,845 @@
+/* line 5, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/wlaurentsanou/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/style.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 11, ../sass/style.scss */
+body {
+  font-size: 14px;
+  background-color: #F0F0F0;
+}
+
+/* line 16, ../sass/style.scss */
+container {
+  width: 100%;
+}
+/* line 18, ../sass/style.scss */
+container header, container main, container footer {
+  width: 100%;
+}
+/* line 22, ../sass/style.scss */
+container button {
+  -moz-transition: 200ms;
+  -webkit-transition: 200ms;
+  ransition: 200ms;
+  outline: none;
+}
+
+/* line 31, ../sass/style.scss */
+header .top-nav, header nav, header .register-or-signin, header .search_box {
+  width: 100%;
+}
+/* line 34, ../sass/style.scss */
+header .top-nav {
+  overflow: auto;
+  background-color: #000;
+  text-align: center;
+}
+/* line 38, ../sass/style.scss */
+header .top-nav h1, header .top-nav img, header .top-nav .register-or-signin {
+  display: inline-block;
+}
+/* line 41, ../sass/style.scss */
+header .top-nav h1 {
+  clear: both;
+  color: white;
+  font: 1.2em helvetica,Impact, sans-serif;
+  margin-top: 1em;
+  text-shadow: -2px 2px 2px #F0F0F0;
+}
+/* line 48, ../sass/style.scss */
+header .top-nav img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* line 53, ../sass/style.scss */
+header .top-nav .logo {
+  width: 30px;
+  height: 25px;
+  cursor: auto;
+}
+/* line 58, ../sass/style.scss */
+header .top-nav .homeButton {
+  float: left;
+  width: 28px;
+  margin-left: 5px;
+  height: 40px;
+  background-color: white;
+  margin-top: 5px;
+}
+/* line 66, ../sass/style.scss */
+header .top-nav .menu_ic {
+  float: right;
+  margin-right: 4px;
+}
+/* line 70, ../sass/style.scss */
+header .top-nav .desktop {
+  display: none;
+}
+/* line 74, ../sass/style.scss */
+header *.search_box {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 78, ../sass/style.scss */
+header .search_box {
+  padding: 3px;
+  display: table;
+  background-color: #000;
+}
+/* line 82, ../sass/style.scss */
+header .search_box .search, header .search_box .search_ic {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+/* line 88, ../sass/style.scss */
+header .search_box .search {
+  padding: 2px 5px;
+  -moz-border-top-left-radius: 7px;
+  -webkit-border-top-left-radius: 7px;
+  border-top-left-radius: 7px;
+  -moz-border-bottom-left-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  width: auto;
+}
+/* line 97, ../sass/style.scss */
+header .search_box .search form {
+  width: 100%;
+  padding: 0px;
+}
+/* line 100, ../sass/style.scss */
+header .search_box .search form input {
+  width: 100%;
+  font-size: 1.6em;
+  font-family: Times New Roman;
+  padding: 2px;
+  border: none;
+}
+/* line 110, ../sass/style.scss */
+header .search_box .search_ic {
+  width: 45px;
+  height: 40px;
+  padding: 3px;
+  cursor: pointer;
+  -moz-border-top-right-radius: 7px;
+  -webkit-border-top-right-radius: 7px;
+  border-top-right-radius: 7px;
+  -moz-border-bottom-right-radius: 7px;
+  -webkit-border-bottom-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+/* line 121, ../sass/style.scss */
+header .search_box .search_ic img {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+/* line 131, ../sass/style.scss */
+header nav {
+  padding: .2em .1em;
+  padding-bottom: 0px;
+}
+/* line 134, ../sass/style.scss */
+header nav ul {
+  width: 100%;
+}
+/* line 136, ../sass/style.scss */
+header nav ul li {
+  width: 16.666%;
+  line-height: 30px;
+  font-weight: bolder;
+  float: left;
+  font-size: .8em;
+  border-bottom: 5px solid #444;
+  text-shadow: -1px 1px 1px #444;
+  text-align: center;
+  padding-left: .2em;
+  background: -moz-linear-gradient(top, #333, #f0f0f0, gray);
+  background: -webkit-linear-gradient(to bottom, gray, #f0f0f0, gray);
+  background: linear-gradient(60deg, gray, #f0f0f0, gray);
+}
+/* line 150, ../sass/style.scss */
+header nav ul li:hover {
+  background: -moz-linear-gradient(top, white, #ccc, white);
+  background: -webkit-linear-gradient(to bottom, #ccc, gray, white);
+  background: linear-gradient(360deg, white, #ccc, white);
+  box-shadow: 20px 0px 100px #444;
+}
+/* line 155, ../sass/style.scss */
+header nav ul li:hover a {
+  color: #000;
+}
+/* line 159, ../sass/style.scss */
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding-top: .7em;
+  padding-right: .6em;
+}
+/* line 165, ../sass/style.scss */
+header nav ul li a img {
+  width: 20px;
+  height: 20px;
+}
+/* line 175, ../sass/style.scss */
+header .mobile-nav ul li {
+  background: linear-gradient(0deg, gray, #f0f0f0, gray);
+  border-left: 1px solid #ccc;
+}
+/* line 182, ../sass/style.scss */
+header .register-or-signin {
+  padding: 0em .1em;
+  overflow: hidden;
+}
+/* line 185, ../sass/style.scss */
+header .register-or-signin ul {
+  width: 100%;
+}
+/* line 187, ../sass/style.scss */
+header .register-or-signin ul li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 40px;
+  border: 5px solid #ccc;
+  transition: 500ms;
+  background: -moz-linear-gradient(bottom, black, white);
+  background: -webkit-linear-gradient(bottom, black, white);
+  background: linear-gradient(bottom, black, white);
+}
+/* line 198, ../sass/style.scss */
+header .register-or-signin ul li:hover {
+  background: -moz-linear-gradient(top, white, #444);
+  background: -webkit-linear-gradient(top, white, #444);
+  background: linear-gradient(top, white, #444);
+}
+/* line 203, ../sass/style.scss */
+header .register-or-signin ul li:active {
+  background: -moz-linear-gradient(top, black, white);
+  background: -webkit-linear-gradient(top, black, white);
+  background: linear-gradient(top, black, white);
+}
+/* line 208, ../sass/style.scss */
+header .register-or-signin ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 217, ../sass/style.scss */
+header .desktop {
+  display: none;
+}
+
+/* line 224, ../sass/style.scss */
+main {
+  overflow: auto;
+}
+/* line 227, ../sass/style.scss */
+main input {
+  outline: none;
+  padding-left: 6px;
+}
+/* line 231, ../sass/style.scss */
+main .desktop {
+  display: none;
+}
+/* line 234, ../sass/style.scss */
+main .mobile {
+  display: block;
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #1e5799 7%, #7db9e8 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1e5799 7%, #7db9e8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1e5799 7%, #7db9e8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 243, ../sass/style.scss */
+main .container {
+  position: relative;
+  width: 100%;
+  padding: 1em;
+  padding-top: 2em;
+  padding-bottom: 6em;
+  font: 1.1em Impact, sans-serif;
+  text-align: center;
+}
+/* line 252, ../sass/style.scss */
+main .container h2 {
+  padding: 1em 0em;
+  font-size: 1.3em;
+}
+/* line 256, ../sass/style.scss */
+main .container h3 {
+  display: inline-block;
+  padding: 1em .5em;
+}
+/* line 261, ../sass/style.scss */
+main .container button {
+  display: block;
+  width: 120px;
+  position: absolute;
+  bottom: 0px;
+  padding: .7em .2em;
+  color: #0C360F;
+  text-shadow: 1px 1px 2px green;
+  font-size: .8em;
+  border: none;
+  cursor: pointer;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #128C1A;
+  border-bottom: 3px solid #146E1A;
+  margin: 2em auto;
+}
+/* line 279, ../sass/style.scss */
+main .container button:hover {
+  background-color: #006600;
+  border-bottom-color: #003300;
+  color: lime;
+  text-shadow: 1px 1px 2px green;
+}
+/* line 285, ../sass/style.scss */
+main .container button:active {
+  border: none;
+}
+/* line 290, ../sass/style.scss */
+main .email-update {
+  width: 100%;
+  overflow: hidden;
+  position: static;
+  padding: .1em .5em;
+  -moz-border-bottom-right-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: #2cd32c;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2cd32c 0%, #2e7732 50%, #1a7705 51%, #063805 71%, #0b441c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #2cd32c 0%, #2e7732 50%, #1a7705 51%, #063805 71%, #0b441c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #2cd32c 0%, #2e7732 50%, #1a7705 51%, #063805 71%, #0b441c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cd32c', endColorstr='#0b441c',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 307, ../sass/style.scss */
+main .email-update section, main .email-update .social-networks {
+  width: 100%;
+}
+/* line 310, ../sass/style.scss */
+main .email-update section {
+  padding: 0px;
+  overflow: hidden;
+}
+/* line 313, ../sass/style.scss */
+main .email-update section h4 {
+  text-transform: uppercase;
+  padding-bottom: .5em;
+  color: lime;
+}
+/* line 318, ../sass/style.scss */
+main .email-update section form {
+  width: 280px;
+  overflow: hidden;
+  padding: .1em 0.2em;
+  margin: auto auto;
+  background-color: white;
+  padding-left: -4px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 330, ../sass/style.scss */
+main .email-update section form input, main .email-update section form button {
+  margin: 0px;
+  float: left;
+  border: none;
+  display: inline-block;
+  font-size: 15px;
+}
+/* line 337, ../sass/style.scss */
+main .email-update section form button {
+  width: 60px;
+  height: 20px;
+  float: right;
+  cursor: pointer;
+}
+/* line 342, ../sass/style.scss */
+main .email-update section form button img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: white;
+}
+/* line 349, ../sass/style.scss */
+main .email-update section form input {
+  clear: right;
+}
+/* line 354, ../sass/style.scss */
+main .email-update .social-networks {
+  text-align: center;
+  padding: .3em 0em;
+}
+/* line 357, ../sass/style.scss */
+main .email-update .social-networks li {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: .5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 367, ../sass/style.scss */
+main .email-update .social-networks li:hover a img {
+  background-color: white;
+}
+/* line 372, ../sass/style.scss */
+main .email-update .social-networks li a {
+  display: block;
+}
+/* line 375, ../sass/style.scss */
+main .email-update .social-networks li a img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 388, ../sass/style.scss */
+main .programming {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 391, ../sass/style.scss */
+main .programming article {
+  width: 100%;
+  min-height: 120px;
+  padding: .3em;
+  overflow: hidden;
+}
+/* line 396, ../sass/style.scss */
+main .programming article section {
+  width: 100%;
+  overflow: hidden;
+  font: 1.2em helvetica, sans-serif;
+}
+/* line 400, ../sass/style.scss */
+main .programming article section a {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+/* line 405, ../sass/style.scss */
+main .programming article section a img {
+  width: 100px;
+  height: 100px;
+  margin: .1em .3em;
+  float: left;
+}
+/* line 411, ../sass/style.scss */
+main .programming article section a p {
+  text-align: left;
+  line-height: 20px;
+}
+/* line 414, ../sass/style.scss */
+main .programming article section a p .learnMore, main .programming article section a p .showLess {
+  text-decoration: underline;
+  color: purple;
+  cursor: pointer;
+  padding: .5em;
+}
+/* line 422, ../sass/style.scss */
+main .programming article section h3 {
+  clear: both;
+  text-align: center;
+  line-height: 1.7em;
+  font-weight: bolder;
+  margin: 2px;
+  background-color: #128C1A;
+}
+/* line 429, ../sass/style.scss */
+main .programming article section h3:hover {
+  background-color: green;
+}
+/* line 431, ../sass/style.scss */
+main .programming article section h3:hover a {
+  color: lime;
+}
+/* line 435, ../sass/style.scss */
+main .programming article section h3 a {
+  display: block;
+  color: #0C360F;
+  cursor: pointer;
+}
+/* line 445, ../sass/style.scss */
+main .stories {
+  width: 100%;
+  overflow: auto;
+  padding: 3px;
+  padding-top: 2em;
+}
+/* line 450, ../sass/style.scss */
+main .stories article {
+  width: 100%;
+  overflow: auto;
+  min-height: 120px;
+}
+/* line 454, ../sass/style.scss */
+main .stories article section {
+  width: 100%;
+}
+/* line 456, ../sass/style.scss */
+main .stories article section a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 459, ../sass/style.scss */
+main .stories article section a img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 100%;
+}
+/* line 465, ../sass/style.scss */
+main .stories article section a h3 {
+  color: blue;
+  font-size: 1.2em;
+  margin: .2em;
+}
+/* line 473, ../sass/style.scss */
+main .stories h2 {
+  clear: both;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  margin: .5em 0em;
+  font-size: 1.3em;
+  border: 1px solid #ccc;
+}
+/* line 481, ../sass/style.scss */
+main .stories h2 a {
+  display: block;
+  color: #555;
+  text-decoration: none;
+}
+/* line 488, ../sass/style.scss */
+main .programming .title, main .stories .title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #000;
+  margin-bottom: 1em;
+}
+/* line 495, ../sass/style.scss */
+main .programming .title section, main .stories .title section {
+  width: 40px;
+  height: 40px;
+  left: 45.6%;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: #000;
+}
+
+/* line 512, ../sass/style.scss */
+footer .footer-head {
+  width: 100%;
+  padding: 0 1px;
+}
+/* line 516, ../sass/style.scss */
+footer .footer-head section {
+  width: 100%;
+  padding: 0 2px;
+  background-color: #ccc;
+}
+/* line 520, ../sass/style.scss */
+footer .footer-head section h2 {
+  font-size: 1.3em;
+  color: white;
+  padding: 5px;
+  background-color: #000;
+  text-align: center;
+}
+/* line 527, ../sass/style.scss */
+footer .footer-head section h3 {
+  line-height: 30px;
+  padding-left: 8px;
+  border-bottom: 1px solid #444;
+  border-top: 1px solid #f0f0f0;
+}
+/* line 532, ../sass/style.scss */
+footer .footer-head section h3:hover {
+  background-color: white;
+}
+/* line 535, ../sass/style.scss */
+footer .footer-head section h3 a {
+  display: block;
+  text-decoration: none;
+  color: #111;
+  text-shadow: 0px 0px 2px #F0F0F0;
+}
+/* line 544, ../sass/style.scss */
+footer .footer-foot {
+  width: 100%;
+  padding: 20px 10px;
+  overflow: hidden;
+  font-size: 1em;
+  background-color: #111;
+  color: white;
+}
+/* line 552, ../sass/style.scss */
+footer .footer-foot .desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 400px) {
+  /* line 567, ../sass/style.scss */
+  header .top-nav h1 {
+    font-size: 1.3em;
+  }
+
+  /* line 575, ../sass/style.scss */
+  main .container h2 {
+    font-size: 1.4em;
+  }
+  /* line 578, ../sass/style.scss */
+  main .container h3 {
+    font-size: 1.4em;
+  }
+  /* line 584, ../sass/style.scss */
+  main .programming article {
+    min-height: 180px;
+  }
+
+  /* line 594, ../sass/style.scss */
+  footer .footer-head section {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 605, ../sass/style.scss */
+  header .top-nav h1 {
+    margin-top: .45em;
+    font-size: 2em;
+  }
+  /* line 609, ../sass/style.scss */
+  header .top-nav .desktop {
+    display: block;
+  }
+  /* line 613, ../sass/style.scss */
+  header .mobile {
+    display: none;
+  }
+  /* line 616, ../sass/style.scss */
+  header #desktop-nav {
+    display: block;
+  }
+  /* line 619, ../sass/style.scss */
+  header #desktop-nav ul li {
+    line-height: 40px;
+    font-size: .9em;
+  }
+  /* line 622, ../sass/style.scss */
+  header #desktop-nav ul li a {
+    padding: 0px;
+  }
+  /* line 628, ../sass/style.scss */
+  header .register-or-signin {
+    width: 200px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+  /* line 634, ../sass/style.scss */
+  header .register-or-signin ul li {
+    font-size: 1.3em;
+  }
+  /* line 639, ../sass/style.scss */
+  header #menu_ic {
+    display: none;
+  }
+
+  /* line 645, ../sass/style.scss */
+  main .mobile {
+    display: none;
+  }
+  /* line 648, ../sass/style.scss */
+  main .desktop {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 380px;
+    background-image: url("../img/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  /* line 659, ../sass/style.scss */
+  main .desktop article {
+    width: 100%;
+    height: 100%;
+    padding: 1.5em;
+    color: white;
+    font-size: 1.5em;
+    background: #222222;
+    /* for IE */
+    background: rgba(34, 34, 34, 0.75);
+  }
+  /* line 667, ../sass/style.scss */
+  main .desktop article h3 {
+    margin-top: 1.2em;
+  }
+  /* line 670, ../sass/style.scss */
+  main .desktop article button {
+    width: 170px;
+    left: 30px;
+    font-size: .7em;
+  }
+  /* line 675, ../sass/style.scss */
+  main .desktop article ul {
+    width: 30%;
+    margin: auto auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  /* line 681, ../sass/style.scss */
+  main .desktop article ul li {
+    width: 12px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -border-radius: 100%;
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /* line 698, ../sass/style.scss */
+  main .programming article, main .stories article {
+    width: 33.33%;
+    float: left;
+    min-height: 220px;
+  }
+  /* line 703, ../sass/style.scss */
+  main .programming article section, main .stories article section {
+    width: 100%;
+  }
+
+  /* line 713, ../sass/style.scss */
+  footer .footer-head section {
+    width: 33.33%;
+    float: left;
+  }
+  /* line 718, ../sass/style.scss */
+  footer .footer-foot {
+    text-align: center;
+  }
+  /* line 720, ../sass/style.scss */
+  footer .footer-foot .desktop {
+    display: inline-block;
+    padding: .5em .7em;
+  }
+}
+/* line 731, ../sass/style.scss */
+.selected {
+  border-bottom-color: red;
+}
+
+/* line 734, ../sass/style.scss */
+.carouself_item {
+  background: -moz-radial-gradient(center, circle, red 10%, black 70%);
+  background: -webkit-radial-gradient(center, circle, red 10%, black 70%);
+  background: radial-gradient(circle at center, #ff0000 10%, #000000 70%);
+}
